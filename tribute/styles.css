@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color to black */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black; /* Change the background color to black */
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px; /* Added margin to separate the header from the content */
+}
+
+nav ul {
+    
+    text-align: center;
+    background-color: black; /* Set the background color to black */
+    padding: 10px; /* Added padding for better spacing */
+}
+
+nav li {
+    display:inline;
+    margin-right: 20px;
+}
+
+nav a {
+    
+    color: white; /* Set the text color to white */
+    font-weight:bolder;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black; /* Semi-transparent black background */
+    border-radius: 10px;
+    
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid red;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black; /* Change the background color to black */
+    color: white;
+}
+
+/* Center the square image and style the biography section */
+#content {
+    text-align: center;
+}
+
+#elon-image {
+    max-width: 100%;
+    height: 300px; /* Adjust the height as desired to make it square */
+    display: block;
+    margin: 0 auto;
+    border-radius:50%; /* Makes the image circular */
+}
+
+#bio {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+    nav ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    nav li {
+        margin-right: 10px;
+    }
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
